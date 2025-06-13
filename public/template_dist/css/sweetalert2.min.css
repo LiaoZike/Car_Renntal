@@ -1,0 +1,26 @@
+.swal2-toast:after {
+    content: "";
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+}
+
+body.toast-success .swal2-toast:after {
+    background-color: rgba(40, 167, 69, 0.1);
+}
+body.toast-error .swal2-toast:after {
+    background-color: rgba(220, 53, 69, 0.1);
+}
+body.toast-warning .swal2-toast:after {
+    background-color: rgba(255, 193, 7, 0.1);
+}
+body.toast-info .swal2-toast:after {
+    background-color: rgba(23, 162, 184, 0.1);
+}
+
+.swal2-timer-progress-bar {
+    background-color: #888;
+}
